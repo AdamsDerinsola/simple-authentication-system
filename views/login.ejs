@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple login form</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/login-styles.css">
+    
+  </head>
+  <body>
+    <form action="/login" method="post">
+      <h1>Login Form</h1>
+      <div class="formcontainer">
+      <hr/>
+      <div class="container">
+        <label for="uname"><strong>Username:</strong></label>
+        <input type="text" placeholder="Enter Username" name="loginName" autocomplete="off">
+        <label for="psw"><strong>Password:</strong></label>
+        <input type="password" placeholder="Enter Password" name="loginPassword" autocomplete="off">
+      </div>
+      <button type="submit">Login</button>
+      <br>
+      <a href="/signup">Don't have an account?</a>
+
+    </form>
+  </body>
+</html>

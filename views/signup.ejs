@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <title> Sign up </title>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/signup-styles.css">
+
+  </head>
+  <body>
+    <form action="/signup" method="post">
+      <h1>SIGN UP</h1>
+      <div class="icon">
+        <i class="fas fa-user-circle"></i>
+      </div>
+      <div class="formcontainer">
+      <div class="container">
+            <label for=""><strong> First name:</strong></label>
+            <input type="text" placeholder="Enter first name" name="userFirstName" autocomplete="off">
+            <label for=""> <strong>Last name:</strong> </label>
+            <input type="text" placeholder="Enter last name" name="userLastName" autocomplete="off">
+            <label for=""> <strong>Username:</strong></label>
+            <input type="text" placeholder="Enter a username" name="userName" autocomplete="off">
+            <label for="psw"><strong>Password:</strong> </label>
+            <input type="text" placeholder="Enter a password" name="password" autocomplete="off">
+      </div>
+      <button type="submit"><strong>SIGN UP</strong></button>
+      <br>
+      <a href="/login">Already have an account?</a>
+    </form>
+  </body>
+</html>
